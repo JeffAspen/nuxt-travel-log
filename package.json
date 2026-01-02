@@ -9,8 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "prepare": "husky"
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
     "@nuxt/eslint": "1.12.1",
@@ -27,7 +26,7 @@
   },
   "lint-staged": {
     "*": [
-      "pnpm lint"
+      "eslint --fix"
     ]
   }
 }
