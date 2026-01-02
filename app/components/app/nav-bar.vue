@@ -4,6 +4,7 @@
       Travel Log
     </NuxtLink>
     <div class="navbar-end">
+      <AppThemeToggle />
       <a class="btn btn-accent">Sign In with GitHub <Icon name="tabler:brand-github" size="24" /></a>
     </div>
   </div>
